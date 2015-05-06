@@ -1,4 +1,4 @@
-MetalKettles-Addon-Repository
+JR's-Addon-Repository
 =============================
 
 All my XBMC addons
