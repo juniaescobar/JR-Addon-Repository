@@ -1,1 +1,1 @@
-# Test
+# JR's Kodi Repo
