@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.jr" name="JR's Addon Repository" version="1.0.0" provider-name="JR">
+	<extension point="xbmc.addon.repository" name="JR's Addon Repository">
+		<info compressed="false">https://raw.githubusercontent.com/juniaescobar/JR-Addon-Repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/juniaescobar/JR-Addon-Repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/juniaescobar/JR-Addon-Repository/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install my Addons</summary>
+		<description>JR's Repo for Skins and Addons</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
