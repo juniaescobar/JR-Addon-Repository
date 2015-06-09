@@ -602,14 +602,14 @@
 		<item>
 			<label>$VAR[SubMenuVideosOne]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(SubVideos.1.Path))">RunAddon(plugin.video.bbts)</onclick>
+			<onclick condition="IsEmpty(Skin.String(SubVideos.1.Path))">ActivateWindow(10025,&quot;plugin://script.categories/?content_type=video&amp;mode=listCat&amp;url=IPTV&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(SubVideos.1.Path))">$INFO[Skin.String(SubVideos.1.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubVideos.1.Path),Hidden)</visible>
 		</item>
 		<item>
 			<label>$VAR[SubMenuVideosTwo]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(SubVideos.2.Path))">RunAddon(plugin.video.aaastream)</onclick>
+			<onclick condition="IsEmpty(Skin.String(SubVideos.2.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.phstreams/?audio=0&amp;content=0&amp;fanart=C%3a%5cUsers%5cOwner%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.phstreams%5cfanart.jpg&amp;image=http%3a%2f%2fshanghai.watchkodi.com%2fPhoenix%2520Tv%2520Icon.jpg&amp;mode=ndmode&amp;name=Phoenix%20TV&amp;playable=false&amp;url=http%3a%2f%2fshanghai.watchkodi.com%2fmaindir%2fmain.xml&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(SubVideos.2.Path))">$INFO[Skin.String(SubVideos.2.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubVideos.2.Path),Hidden)</visible>
 		</item>
@@ -622,50 +622,50 @@
 		<item>
 			<label>$VAR[SubMenuVideosFour]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(SubVideos.4.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.moviedb/?mode=userdatabase&amp;name=User%20Submitted%20Playlists&amp;url=none&quot;,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(SubVideos.4.Path))">RunAddon(plugin.video.ustvnow)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(SubVideos.4.Path))">$INFO[Skin.String(SubVideos.4.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubVideos.4.Path),Hidden)</visible>
 		</item>
 		<item>
 			<label>$VAR[SubMenuVideosFive]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(SubVideos.5.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.tbh.ilive/?mode=SectionMenu2&amp;section=live&amp;site&quot;,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(SubVideos.5.Path))">RunAddon(script.pseudotv.lite)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(SubVideos.5.Path))">$INFO[Skin.String(SubVideos.5.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubVideos.5.Path),Hidden)</visible>
 		</item>
 		<item>
 			<label>$VAR[SubMenuVideosSix]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(SubVideos.6.Path))">RunAddon(plugin.video.Halow)</onclick>
+			<onclick condition="IsEmpty(Skin.String(SubVideos.6.Path))">RunAddon(script.CANChannels)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(SubVideos.6.Path))">$INFO[Skin.String(SubVideos.6.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubVideos.6.Path),Hidden)</visible>
 		</item>
 		<item>
 			<label>$VAR[SubMenuVideosSeven]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(SubVideos.7.Path))">RunAddon(script.pseudotv.lite)</onclick>
+			<onclick condition="IsEmpty(Skin.String(SubVideos.7.Path))">RunAddon(plugin.video.F.T.V)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(SubVideos.7.Path))">$INFO[Skin.String(SubVideos.7.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubVideos.7.Path),Hidden)</visible>
 		</item>
 		<item>
 			<label>$VAR[SubMenuVideosEight]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(SubVideos.8.Path))">RunAddon(plugin.video.mikeytv)</onclick>
+			<onclick condition="IsEmpty(Skin.String(SubVideos.8.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.allinone/?mode=GetTitles35a&amp;url=https%3a%2f%2fraw.githubusercontent.com%2fTheYid%2fyidpics%2fmaster%2fyellow2.txt&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(SubVideos.8.Path))">$INFO[Skin.String(SubVideos.8.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubVideos.8.Path),Hidden)</visible>
 		</item>
 		<item>
 			<label>$VAR[SubMenuVideosNine]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(SubVideos.9.Path))">RunAddon(plugin.video.ustvnow)</onclick>
+			<onclick condition="IsEmpty(Skin.String(SubVideos.9.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.moviedb/?mode=userdatabase&amp;name=User%20Submitted%20Playlists&amp;url=none&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(SubVideos.9.Path))">$INFO[Skin.String(SubVideos.9.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubVideos.9.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$VAR[SubMenuVideosTen]</label>
+			<label>$INFO[Skin.String(SubVideos.10.Label)]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(SubVideos.10.Path))">RunAddon(plugin.video.playlistLoader)</onclick>
-			<onclick condition="!IsEmpty(Skin.String(SubVideos.10.Path))">$INFO[Skin.String(SubVideos.10.Path)]</onclick>
+			<onclick>$INFO[Skin.String(SubVideos.10.Path)]</onclick>
+			<visible>!IsEmpty(Skin.String(SubVideos.10.Path))</visible>
 			<visible>!stringcompare(Skin.String(SubVideos.10.Path),Hidden)</visible>
 		</item>
 	</include>

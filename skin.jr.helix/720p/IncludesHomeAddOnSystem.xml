@@ -718,56 +718,56 @@
 			<visible>!stringcompare(Skin.String(AddonSetOne.1.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32278]</label>
+			<label>$LOCALIZE[32279]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String((AddonSetOne.2.Path))">RunAddon(script.CANChannels)</onclick>
+			<onclick condition="IsEmpty(Skin.String((AddonSetOne.2.Path))">RunAddon(script.tvguidetecbox)</onclick>
 			<onclick condition="!IsEmpty(Skin.String((AddonSetOne.2.Path))">$INFO[Skin.String(AddonSetOne.2.Path)]</onclick>
-			<icon>special://home/addons/script.CANChannels\icon.png</icon>
+			<icon>special://home/addons/script.tvguidetecbox\icon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(AddonSetOne.2.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32279]</label>
+			<label>$LOCALIZE[32280]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String((AddonSetOne.3.Path))">RunAddon(script.tvguidetecbox)</onclick>
+			<onclick condition="IsEmpty(Skin.String((AddonSetOne.3.Path))">RunAddon(script.ftvguide)</onclick>
 			<onclick condition="!IsEmpty(Skin.String((AddonSetOne.3.Path))">$INFO[Skin.String(AddonSetOne.3.Path)]</onclick>
-			<icon>special://home/addons/script.tvguidetecbox\icon.png</icon>
+			<icon>special://home/addons/script.ftvguide\icon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(AddonSetOne.3.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32280]</label>
+			<label>$LOCALIZE[32291]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String((AddonSetOne.4.Path))">RunAddon(script.ftvguide)</onclick>
+			<onclick condition="IsEmpty(Skin.String((AddonSetOne.4.Path))">RunAddon(script.renegadestv)</onclick>
 			<onclick condition="!IsEmpty(Skin.String((AddonSetOne.4.Path))">$INFO[Skin.String(AddonSetOne.4.Path)]</onclick>
-			<icon>special://home/addons/script.ftvguide\icon.png</icon>
+			<icon>special://home/addons/script.renegadestv\icon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(AddonSetOne.4.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32281]</label>
+			<label>$LOCALIZE[32287]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String((AddonSetOne.5.Path))">RunAddon(plugin.video.freestreams)</onclick>
+			<onclick condition="IsEmpty(Skin.String((AddonSetOne.5.Path))">RunAddon(plugin.video.CanTVLive)</onclick>
 			<onclick condition="!IsEmpty(Skin.String((AddonSetOne.5.Path))">$INFO[Skin.String(AddonSetOne.5.Path)]</onclick>
-			<icon>special://home/addons/plugin.video.freestreams\icon.png</icon>
+			<icon>special://home/addons/plugin.video.CanTVLive\icon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(AddonSetOne.5.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32223]</label>
+			<label>$LOCALIZE[32288]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String((AddonSetOne.6.Path))">RunAddon(plugin.video.vdubt)</onclick>
+			<onclick condition="IsEmpty(Skin.String((AddonSetOne.6.Path))">RunAddon(plugin.video.stalker)</onclick>
 			<onclick condition="!IsEmpty(Skin.String((AddonSetOne.6.Path))">$INFO[Skin.String(AddonSetOne.6.Path)]</onclick>
-			<icon>special://home/addons/plugin.video.vdubt\icon.png</icon>
+			<icon>special://home/addons/plugin.video.stalker\icon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(AddonSetOne.6.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32282]</label>
+			<label>$LOCALIZE[32110]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String((AddonSetOne.7.Path))">RunAddon(plugin.video.RobinHood-PPL-List)</onclick>
+			<onclick condition="IsEmpty(Skin.String((AddonSetOne.7.Path))">RunAddon(plugin.video.playlistLoader)</onclick>
 			<onclick condition="!IsEmpty(Skin.String((AddonSetOne.7.Path))">$INFO[Skin.String(AddonSetOne.7.Path)]</onclick>
-			<icon>special://home/addons/plugin.video.RobinHood-PPL-List\icon.png</icon>
+			<icon>special://home/addons/plugin.video.playlistLoader\icon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(AddonSetOne.7.Path),Hidden)</visible>
 		</item>

@@ -345,7 +345,7 @@
 		<onload>Skin.SetString(HomeItem.2.Display,Default)</onload>
 
 		<onload>Skin.SetString(HomeItem.3.Label,$LOCALIZE[32002])</onload>
-		<onload>Skin.SetString(HomeItem.3.Path,ActivateWindow(Videos,Addons,return))</onload>
+		<onload>Skin.SetString(HomeItem.3.Path,ActivateWindow(10025,&quot;plugin://plugin.video.genesis/?action=movies_added_hd&quot;,return))</onload>
 		<onload>Skin.SetString(HomeItem.3.Sub,TVShows)</onload>
 		<onload>Skin.SetString(HomeItem.3.Addon,AddonSetThree)</onload>
 		<onload>Skin.SetString(HomeItem.3.Widget,None)</onload>
@@ -354,7 +354,7 @@
 		<onload>Skin.SetString(HomeItem.3.Display,Default)</onload>
 
 		<onload>Skin.SetString(HomeItem.4.Label,$LOCALIZE[31200])</onload>
-		<onload>Skin.SetString(HomeItem.4.Path,ActivateWindow(Videos,TV shows,return)</onload>
+		<onload>Skin.SetString(HomeItem.4.Path,ActivateWindow(Videos,TVShowTitles,return))</onload>
 		<onload>Skin.SetString(HomeItem.4.Sub,Music)</onload>
 		<onload>Skin.SetString(HomeItem.4.Addon,AddonSetFour)</onload>
 		<onload>Skin.SetString(HomeItem.4.Widget,SuggestedEpisodes)</onload>
@@ -363,10 +363,10 @@
 		<onload>Skin.SetString(HomeItem.4.Display,Default)</onload>
 
 		<onload>Skin.SetString(HomeItem.5.Label,$LOCALIZE[342])</onload>
-		<onload>Skin.SetString(HomeItem.5.Path,ActivateWindow(Videos,Movies,return)</onload>
+		<onload>Skin.SetString(HomeItem.5.Path,ActivateWindow(Videos,MovieTitles,return))</onload>
 		<onload>Skin.SetString(HomeItem.5.Sub,LiveTV)</onload>
 		<onload>Skin.SetString(HomeItem.5.Addon,AddonSetFive)</onload>
-		<onload>Skin.SetString(HomeItem.5.Widget,UnWatched)</onload>
+		<onload>Skin.SetString(HomeItem.5.Widget,SuggestedMovies)</onload>
 		<onload>Skin.SetString(HomeItem.5.Type,Movies)</onload>
 		<onload>Skin.SetString(HomeItem.5.Fanart,special://skin/backgrounds/movies.jpg)</onload>
 		<onload>Skin.SetString(HomeItem.5.Display,Default)</onload>
@@ -375,7 +375,7 @@
 		<onload>Skin.SetString(HomeItem.6.Path,ActivateWindow(Music,Addons,return))</onload>
 		<onload>Skin.SetString(HomeItem.6.Sub,Radio)</onload>
 		<onload>Skin.SetString(HomeItem.6.Addon,AddonSetSix)</onload>
-		<onload>Skin.SetString(HomeItem.6.Widget,RecentAlbums)</onload>
+		<onload>Skin.SetString(HomeItem.6.Widget,SuggestedAlbums)</onload>
 		<onload>Skin.SetString(HomeItem.6.Type,Music)</onload>
 		<onload>Skin.SetString(HomeItem.6.Fanart,special://skin/backgrounds/music.jpg)</onload>
 		<onload>Skin.SetString(HomeItem.6.Display,Database)</onload>
@@ -387,7 +387,7 @@
 		<onload>Skin.SetString(HomeItem.7.Widget,None)</onload>
 		<onload>Skin.SetString(HomeItem.7.Type,Videos)</onload>
 		<onload>Skin.SetString(HomeItem.7.Fanart,special://skin/backgrounds/family.jpg)</onload>
-		<onload>Skin.SetString(HomeItem.7.Display,Database)</onload>
+		<onload>Skin.SetString(HomeItem.7.Display,Default)</onload>
 
 		<onload>Skin.SetString(HomeItem.8.Label,$LOCALIZE[19548])</onload>
 		<onload>Skin.SetString(HomeItem.8.Path,ActivateWindow(Videos,Addons,return))</onload>

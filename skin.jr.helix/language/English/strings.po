@@ -2267,13 +2267,21 @@ msgid "Playlist Loader"
 msgstr ""
 
 msgctxt "#32287"
-msgid ""
+msgid "CanTVLive"
 msgstr ""
 
 msgctxt "#32288"
-msgid ""
+msgid "IPTV Stalker"
 msgstr ""
 
 msgctxt "#32289"
-msgid ""
+msgid "IPTV Playlists"
+msgstr ""
+
+msgctxt "#32290"
+msgid "Phoenix TV"
+msgstr ""
+
+msgctxt "#32291"
+msgid "Renegade TV Guide"
 msgstr ""
