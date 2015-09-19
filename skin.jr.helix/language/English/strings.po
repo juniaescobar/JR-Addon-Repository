@@ -2155,7 +2155,7 @@ msgid "Xunity"
 msgstr ""
 
 msgctxt "#32259"
-msgid "MorePower"
+msgid "MorePowerlic"
 msgstr ""
 
 msgctxt "#32260"
@@ -2284,4 +2284,16 @@ msgstr ""
 
 msgctxt "#32291"
 msgid "Renegade TV Guide"
+msgstr ""
+
+msgctxt "#32292"
+msgid "Giddy-Up Network"
+msgstr ""
+
+msgctxt "#32293"
+msgid "Rockcrusher"
+msgstr ""
+
+msgctxt "#32294"
+msgid "PrimeLinks"
 msgstr ""

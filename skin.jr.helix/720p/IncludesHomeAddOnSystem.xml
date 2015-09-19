@@ -754,11 +754,11 @@
 			<visible>!stringcompare(Skin.String(AddonSetOne.5.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32288]</label>
+			<label>$LOCALIZE[32292]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String((AddonSetOne.6.Path))">RunAddon(plugin.video.stalker)</onclick>
+			<onclick condition="IsEmpty(Skin.String((AddonSetOne.6.Path))">RunAddon(plugin.video.tgun)</onclick>
 			<onclick condition="!IsEmpty(Skin.String((AddonSetOne.6.Path))">$INFO[Skin.String(AddonSetOne.6.Path)]</onclick>
-			<icon>special://home/addons/plugin.video.stalker\icon.png</icon>
+			<icon>special://home/addons/plugin.video.tgun\icon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(AddonSetOne.6.Path),Hidden)</visible>
 		</item>
@@ -776,7 +776,7 @@
 		<item>
 			<label>$LOCALIZE[32201]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(AddonSetTwo.1.Path))">ActivateWindow(Videos,plugin://plugin.video.genesis/?action=episodes_added,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(AddonSetTwo.1.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.genesis/?action=tvWidget&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(AddonSetTwo.1.Path))">$INFO[Skin.String(AddonSetTwo.1.Path)]</onclick>
 			<icon>special://home/addons/plugin.video.genesis/icon.png</icon>
 			<thumb>-</thumb>
@@ -841,7 +841,7 @@
 		<item>
 			<label>$LOCALIZE[32201]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String((HomeAddonSetThree.1.Path))">ActivateWindow(Videos,plugin://plugin.video.genesis/?action=movies_theaters,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String((HomeAddonSetThree.1.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.genesis/?action=movies&amp;url=theaters&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String((HomeAddonSetThree.1.Path))">$INFO[Skin.String(HomeAddonSetThree.1.Path)]</onclick>
 			<icon>special://home/addons/plugin.video.genesis/icon.png</icon>
 			<thumb>-</thumb>
@@ -906,7 +906,7 @@
 		<item>
 			<label>$LOCALIZE[32201]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String((HomeAddonSetFour.1.Path))">ActivateWindow(Videos,plugin://plugin.video.genesis/?action=root_shows,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String((HomeAddonSetFour.1.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.genesis/?action=tvNavigator&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String((HomeAddonSetFour.1.Path))">$INFO[Skin.String(HomeAddonSetFour.1.Path)]</onclick>
 			<icon>special://home/addons/plugin.video.genesis/icon.png</icon>
 			<thumb>-</thumb>
@@ -971,7 +971,7 @@
 		<item>
 			<label>$LOCALIZE[32201]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String((HomeAddonSetFive.1.Path))">ActivateWindow(Videos,plugin://plugin.video.genesis/?action=root_movies,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String((HomeAddonSetFive.1.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.genesis/?action=movieNavigator&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String((HomeAddonSetFive.1.Path))">$INFO[Skin.String(HomeAddonSetFive.1.Path)]</onclick>
 			<icon>special://home/addons/plugin.video.genesis/icon.png</icon>
 			<thumb>-</thumb>
@@ -1101,7 +1101,7 @@
 		<item>
 			<label>$LOCALIZE[32201]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(AddonSetSeven.1.Path))">ActivateWindow(Videos,plugin://plugin.video.genesis/?action=movies&amp;url=http%3A%2F%2Fakas.imdb.com%2Fsearch%2Ftitle%3Ftitle_type%3Dfeature%2Ctv_movie%26sort%3Dboxoffice_gross_us%26count%3D25%26start%3D1%26genres%3Dfamily,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(AddonSetSeven.1.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.genesis/?action=movies&amp;url=http%3a%2f%2fapi.themoviedb.org%2f3%2fdiscover%2fmovie%3fapi_key%3d%25s%26with_genres%3d10751%26primary_release_date.gte%3d2014-09-14%26primary_release_date.lte%3d2015-09-14%26page%3d1&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(AddonSetSeven.1.Path))">$INFO[Skin.String(AddonSetSeven.1.Path)]</onclick>
 			<icon>special://home/addons/plugin.video.genesis/icon.png</icon>
 			<thumb>-</thumb>
@@ -1117,11 +1117,11 @@
 			<visible>!stringcompare(Skin.String(AddonSetSeven.2.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32218]</label>
+			<label>$LOCALIZE[32268]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(AddonSetSeven.3.Path))">RunAddon(plugin.video.cartoonhd)</onclick>
+			<onclick condition="IsEmpty(Skin.String(AddonSetSeven.3.Path))">RunAddon(plugin.video.cartoonhdtwo)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(AddonSetSeven.3.Path))">$INFO[Skin.String(AddonSetSeven.3.Path)]</onclick>
-			<icon>special://home/addons/plugin.video.cartoonhd/icon.png</icon>
+			<icon>special://home/addons/plugin.video.cartoonhdtwo/icon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(AddonSetSeven.3.Path),Hidden)</visible>
 		</item>
@@ -1361,7 +1361,7 @@
 		<item>
 			<label>$LOCALIZE[32241]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.1.Path))">ActivateWindow(Videos,plugin://plugin.video.phstreams/?url=http%3A%2F%2Ftuzla.watchkodi.com%2F3D.xml&amp;mode=ndmode&amp;name=3D+Movies&amp;sound=,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.1.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.phstreams/?action=ndmode&amp;audio=0&amp;content=0&amp;fanart=http%3a%2f%2fi.imgur.com%2fW7qRvEq.png&amp;image=http%3a%2f%2fi.imgur.com%2f5agaxpQ.png&amp;name=3D%20Movies&amp;playable=false&amp;tvshow=0&amp;url=http%3a%2f%2ftuzla.watchkodi.com%2f3D%2f3Ddir.xml&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(HomeAddonSetEleven.1.Path))">$INFO[Skin.String(HomeAddonSetEleven.1.Path)]</onclick>
 			<icon>http://s29.postimg.org/ta0bxj12f/staael1.png</icon>
 			<thumb>-</thumb>
@@ -1370,27 +1370,27 @@
 		<item>
 			<label>$LOCALIZE[32242]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.2.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.phstreams/?mode=ndmode&amp;name=TNPB&amp;sound&amp;url=http%3a%2f%2fzenica.watchkodi.com%2fmaindir%2fmain.xml&quot;,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.2.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.phstreams/?action=ndmode&amp;audio=0&amp;content=0&amp;fanart=http%3a%2f%2fs6.postimg.org%2f4ph8mo5q9%2fBackdrop.png&amp;image=http%3a%2f%2fs6.postimg.org%2fs8jsgsg75%2f3_D.png&amp;name=%5bCOLOR%20orangered%5d3%5b%2fCOLOR%5d%5bCOLOR%20white%5dD%5b%2fCOLOR%5d&amp;playable=false&amp;tvshow=0&amp;url=http%3a%2f%2fzenica.watchkodi.com%2fMovies%2f3D%2520Movies.xml&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(HomeAddonSetEleven.2.Path))">$INFO[Skin.String(HomeAddonSetEleven.2.Path)]</onclick>
 			<icon>http://zenica.watchkodi.com/MyIcon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(HomeAddonSetEleven.2.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32212]</label>
+			<label>$LOCALIZE[32294]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.3.Path))">ActivateWindow(Videos,plugin://plugin.video.losmovies/?url=http%3A%2F%2Fwww.losmovies.tv%2Fwatch-3D-movies&amp;mode=5&amp;name=3D,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.3.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.myvideolinks/?mode=GetTitles&amp;numOfPages=1&amp;section=ALL&amp;startPage=1&amp;url=http%3a%2f%2fmovies.myvideolinks.xyz%2f%2fcategory%2fallmovies%2f3dmovies%2f&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(HomeAddonSetEleven.3.Path))">$INFO[Skin.String(HomeAddonSetEleven.3.Path)]</onclick>
-			<icon>special://home/addons/plugin.video.losmovies/icon.png</icon>
+			<icon>special://home/addons/plugin.video.myvideolinks/icon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(HomeAddonSetEleven.3.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32258]</label>
+			<label>$LOCALIZE[32240]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.4.Path))">ActivateWindow(Videos,plugin://script.icechannel/?name=%5BB%5D%5BCOLOR+steelblue%5DMOVIES+in%5B%2FCOLOR%5D+%5BCOLOR+red%5D3D%5BCOLOR%5D%5B%2FB%5D+%5BCOLOR+white%5D-+-+-+-+%3E%5B%2FCOLOR%5D&amp;img=https%3A%2F%2Fbytebucket.org%2Fxnty%2Fdrplxnty%2Fraw%2Fmaster%2Fimages%2Fmovies2.png&amp;format=xbmcxml&amp;url=https%3A%2F%2Fbitbucket.org%2Fxnty%2Fdrplxnty%2Fraw%2Fmaster%2FXMLs%2Fxunitytalk_3d.xml&amp;section=file_stores&amp;title=%5BB%5D%5BCOLOR+steelblue%5DMOVIES+in%5B%2FCOLOR%5D+%5BCOLOR+red%5D3D%5BCOLOR%5D%5B%2FB%5D+%5BCOLOR+white%5D-+-+-+-+%3E%5B%2FCOLOR%5D&amp;indexer=file_stores&amp;fanart=https%3A%2F%2Fbytebucket.org%2Fxnty%2Fdrplxnty%2Fraw%2Fmaster%2Fimages%2Fxunitytalk%2520playlist.png&amp;mode=read_file_item_2&amp;format_display_name=XBMC+XML&amp;type=playlist&amp;id=11844bce64cfddf12e23726b3a92fc33,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.4.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.phstreams/?action=ndmode&amp;audio=0&amp;content=0&amp;fanart=http%3a%2f%2fcoolbackgroundhd.com%2fwp-content%2fuploads%2f2015%2f04%2fangels-wings-fire-wallpaper.jpg&amp;image=http%3a%2f%2fs18.postimg.org%2fopsed7455%2fImax3d1.jpg&amp;name=IMAX&amp;playable=false&amp;tvshow=0&amp;url=http%3a%2f%2fgibraltar.watchkodi.com%2fCollections%2fimax.xml&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(HomeAddonSetEleven.4.Path))">$INFO[Skin.String(HomeAddonSetEleven.4.Path)]</onclick>
-			<icon>special://home/addons/script.icechannel/icon.png</icon>
+			<icon>http://gibraltar.watchkodi.com/skullPhoenicIcon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(HomeAddonSetEleven.4.Path),Hidden)</visible>
 		</item>
@@ -1399,26 +1399,27 @@
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
 			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.5.Path))">ActivateWindow(Videos,plugin://script.icechannel/?name=%5BCOLOR%3DFF0198E1%5DEye+Popping+3D+movies%5B%2FCOLOR%5D&amp;img=http%3A%2F%2Fwww.pardaphash.com%2Fuploads%2Fimages%2F660%2F57899.png&amp;format=xbmcxml&amp;url=http%3A%2F%2Fgithub.com%2Filovemymac%2Fplaylist%2Fraw%2Fmaster%2F3Dmovies.xml&amp;section=file_stores&amp;title=%5BCOLOR%3DFF0198E1%5DEye+Popping+3D+movies%5B%2FCOLOR%5D&amp;indexer=file_stores&amp;fanart=&amp;mode=read_file_item_2&amp;format_display_name=XBMC+XML&amp;type=playlist&amp;id=e373bb310a3cdc10dca0bd28b17e49c4,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(HomeAddonSetEleven.5.Path))">$INFO[Skin.String(HomeAddonSetEleven.5.Path)]</onclick>
-			<icon>https://bytebucket.org/xnty/drplxnty/raw/master/images/Morepowerllic.png</icon>
+			<icon>http://xty.me/xunitytalk/playlist/images/Morepowerllic.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(HomeAddonSetEleven.5.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32260]</label>
+			<label>$LOCALIZE[32212]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.6.Path))">ActivateWindow(Videos,plugin://script.icechannel/?name=3%5BCOLOR+ffff0000%5DD%5B%2FCOLOR%5D+Movies&amp;img=https%3A%2F%2Fraw.githubusercontent.com%2Ffoz1234%2FAnti-Matter%2Fmaster%2FPictures%2Frsz_3dmovies-ref.png&amp;format=xbmcxml&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2Ffoz1234%2FAnti-Matter%2Fmaster%2F3D%2520Movies.xml&amp;section=file_stores&amp;title=3%5BCOLOR+ffff0000%5DD%5B%2FCOLOR%5D+Movies&amp;indexer=file_stores&amp;fanart=https%3A%2F%2Fraw.githubusercontent.com%2Ffoz1234%2FAnti-Matter%2Fmaster%2FPictures%2Fanti-matter.jpg&amp;mode=read_file_item_2&amp;format_display_name=XBMC+XML&amp;type=playlist&amp;id=e647f12e66bb4134a35bc355d777bd6c,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.6.Path))">ActivateWindow(Videos,plugin://plugin.video.losmovies/?url=http%3A%2F%2Fwww.losmovies.tv%2Fwatch-3D-movies&amp;mode=5&amp;name=3D,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(HomeAddonSetEleven.6.Path))">$INFO[Skin.String(HomeAddonSetEleven.6.Path)]</onclick>
-			<icon>https://bytebucket.org/xnty/drplxnty/raw/master/images/antimatter.png</icon>
+			<icon>special://home/addons/plugin.video.losmovies/icon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(HomeAddonSetEleven.6.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$INFO[Skin.String(AddonSetEleven.7.Label)]</label>
+			<label>$LOCALIZE[32258]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick>$INFO[Skin.String(AddonSetEleven.7.Path)]</onclick>
-			<icon>$INFO[Skin.String(AddonSetEleven.7.Icon)]</icon>
+			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.7.Path))">ActivateWindow(10025,&quot;plugin://script.icechannel/?fanart=http%3a%2f%2fxty.me%2fxunitytalk%2fplaylist%2fimages%2fxunitytalk%2520playlist.png&amp;format=xbmcxml&amp;format_display_name=XBMC%20XML&amp;id=40e8dcea80a8d1964e1512ea742dbf26&amp;img=http%3a%2f%2fxty.me%2fxunitytalk%2fplaylist%2fimages%2fmovies2.png&amp;indexer=file_stores&amp;mode=read_file_item_2&amp;name=%5bB%5d%5bCOLOR%20steelblue%5dMOVIES%20in%5b%2fCOLOR%5d%20%5bCOLOR%20red%5d3D%5bCOLOR%5d%5b%2fB%5d%20%5bCOLOR%20white%5d-%20-%20-%20-%20%3e%5b%2fCOLOR%5d&amp;section=file_stores&amp;title=%5bB%5d%5bCOLOR%20steelblue%5dMOVIES%20in%5b%2fCOLOR%5d%20%5bCOLOR%20red%5d3D%5bCOLOR%5d%5b%2fB%5d%20%5bCOLOR%20white%5d-%20-%20-%20-%20%3e%5b%2fCOLOR%5d&amp;type=playlist&amp;url=http%3a%2f%2fxty.me%2fxunitytalk%2fplaylist%2fXMLs%2fxunitytalk_3d.xml&quot;,return)</onclick>
+			<onclick condition="!IsEmpty(Skin.String(HomeAddonSetEleven.7.Path))">$INFO[Skin.String(HomeAddonSetEleven.7.Path)]</onclick>
+			<icon>http://xty.me/xunitytalk/playlist/images/xunity_pl_dir.png</icon>
 			<thumb>-</thumb>
-			<visible>!IsEmpty(Skin.String(AddonSetEleven.7.Path))</visible>
+			<visible>!stringcompare(Skin.String(HomeAddonSetEleven.6.Path),Hidden)</visible>
 		</item>
 	</include>
 	<include name="HomeAddonSetTwelve">
