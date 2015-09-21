@@ -1141,7 +1141,7 @@
 		<item>
 			<label>$VAR[SubMenuRadioFive]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(SubRadio.5.Path))">ActivateWindow(Videos,plugin://plugin.video.tbh.ilive/?site=&amp;section=live&amp;mode=iLiveBrowseLIVE&amp;channel=Music&amp;title=Music,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(SubRadio.5.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.F.T.V/?ch_fanart=music&amp;description=272%2c2942%2c3245%2c2999%2c3365%2c3008%2c3038%2c3056%2c3059%2c3065%2c3068%2c1681%2c2891%2c3217%2c2233%2c257%2c2188%2c950%2c1687%2c1690%2c1696%2c2072%2c95%2c2152%2c2170%2c2179%2c2182%2c691%2c8%2c385%2c530%2c1367%2c311%2c1356%2c350%2c400%2c309%2c342%2c347%2c1325%2c1310%2c1336%2c1337%2c1353&amp;mode=123&amp;name=MUSIC&amp;url=12&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(SubRadio.5.Path))">$INFO[Skin.String(SubRadio.5.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubRadio.5.Path),Hidden)</visible>
 		</item>
@@ -1167,10 +1167,10 @@
 			<visible>!stringcompare(Skin.String(SubRadio.8.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$INFO[Skin.String(SubRadio.9.Label)]</label>
+			<label>$VAR[SubMenuRadioNine]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick>$INFO[Skin.String(SubRadio.9.Path)]</onclick>
-			<visible>!IsEmpty(Skin.String(SubRadio.9.Path))</visible>
+			<onclick condition="IsEmpty(Skin.String(SubRadio.9.Path))">ActivateWindow(Videos,plugin://plugin.video.tbh.ilive/?site=&amp;section=live&amp;mode=iLiveBrowseLIVE&amp;channel=Music&amp;title=Music,return)</onclick>
+			<onclick condition="!IsEmpty(Skin.String(SubRadio.9.Path))">$INFO[Skin.String(SubRadio.9.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubRadio.9.Path),Hidden)</visible>
 		</item>
 		<item>
@@ -1343,7 +1343,7 @@
 		<item>
 			<label>$VAR[SubMenuUserOneThree]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(UserSubOne.3.Path))">ActivateWindow(Videos,plugin://script.icechannel/?name=%5BB%5D%5BCOLOR+steelblue%5DMOVIES+in%5B%2FCOLOR%5D+%5BCOLOR+red%5D720P%5BCOLOR%5D%5B%2FB%5D+%5BCOLOR+white%5D-+-+-+-+%3E%5B%2FCOLOR%5D&amp;img=https%3A%2F%2Fbytebucket.org%2Fxnty%2Fdrplxnty%2Fraw%2Fmaster%2Fimages%2Fmovies2.png&amp;format=xbmcxml&amp;url=https%3A%2F%2Fbitbucket.org%2Fxnty%2Fdrplxnty%2Fraw%2Fmaster%2FXMLs%2Fxunitytalk_movies.xml&amp;section=file_stores&amp;title=%5BB%5D%5BCOLOR+steelblue%5DMOVIES+in%5B%2FCOLOR%5D+%5BCOLOR+red%5D720P%5BCOLOR%5D%5B%2FB%5D+%5BCOLOR+white%5D-+-+-+-+%3E%5B%2FCOLOR%5D&amp;indexer=file_stores&amp;fanart=https%3A%2F%2Fbytebucket.org%2Fxnty%2Fdrplxnty%2Fraw%2Fmaster%2Fimages%2Fxunitytalk%2520playlist.png&amp;mode=read_file_item_2&amp;format_display_name=XBMC+XML&amp;type=playlist&amp;id=88601e191007590e77a3480d940fc0a3,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(UserSubOne.3.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.streamengine/?date&amp;description&amp;iconimage=http%3a%2f%2fi1295.photobucket.com%2falbums%2fb636%2fbeatbox8501%2fMOVIES_zpsmi1ggoz2.png&amp;mode=1&amp;name=%5bCOLOR%20white%5dMOVIES%5b%2fCOLOR%5d%5bCOLOR%20red%5d%5b%2fCOLOR%5d&amp;page&amp;play&amp;url=https%3a%2f%2fpastebin.com%2fraw.php%3fi%3dsxfkx4ZY&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(UserSubOne.3.Path))">$INFO[Skin.String(UserSubOne.3.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(UserSubOne.3.Path),Hidden)</visible>
 		</item>
@@ -1369,10 +1369,10 @@
 			<visible>!stringcompare(Skin.String(UserSubOne.6.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$INFO[Skin.String(UserSubOne.7.Label)]</label>
+			<label>$VAR[SubMenuUserOneSeven]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick>$INFO[Skin.String(UserSubOne.7.Path)]</onclick>
-			<visible>!IsEmpty(Skin.String(UserSubOne.7.Path))</visible>
+			<onclick condition="IsEmpty(Skin.String(UserSubOne.7.Path))">ActivateWindow(Videos,plugin://script.icechannel/?name=%5BB%5D%5BCOLOR+steelblue%5DMOVIES+in%5B%2FCOLOR%5D+%5BCOLOR+red%5D720P%5BCOLOR%5D%5B%2FB%5D+%5BCOLOR+white%5D-+-+-+-+%3E%5B%2FCOLOR%5D&amp;img=https%3A%2F%2Fbytebucket.org%2Fxnty%2Fdrplxnty%2Fraw%2Fmaster%2Fimages%2Fmovies2.png&amp;format=xbmcxml&amp;url=https%3A%2F%2Fbitbucket.org%2Fxnty%2Fdrplxnty%2Fraw%2Fmaster%2FXMLs%2Fxunitytalk_movies.xml&amp;section=file_stores&amp;title=%5BB%5D%5BCOLOR+steelblue%5DMOVIES+in%5B%2FCOLOR%5D+%5BCOLOR+red%5D720P%5BCOLOR%5D%5B%2FB%5D+%5BCOLOR+white%5D-+-+-+-+%3E%5B%2FCOLOR%5D&amp;indexer=file_stores&amp;fanart=https%3A%2F%2Fbytebucket.org%2Fxnty%2Fdrplxnty%2Fraw%2Fmaster%2Fimages%2Fxunitytalk%2520playlist.png&amp;mode=read_file_item_2&amp;format_display_name=XBMC+XML&amp;type=playlist&amp;id=88601e191007590e77a3480d940fc0a3,return)</onclick>
+			<onclick condition="!IsEmpty(Skin.String(UserSubOne.7.Path))">$INFO[Skin.String(UserSubOne.7.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(UserSubOne.7.Path),Hidden)</visible>
 		</item>
 		<item>

@@ -2297,3 +2297,7 @@ msgstr ""
 msgctxt "#32294"
 msgid "PrimeLinks"
 msgstr ""
+
+msgctxt "#32295"
+msgid "Stream Engine"
+msgstr ""

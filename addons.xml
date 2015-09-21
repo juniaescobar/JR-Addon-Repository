@@ -31,7 +31,7 @@
 
 <addon
   id="skin.jr.helix"
-  version="1.0.1"
+  version="1.0.2"
   name="JR Skin"
   provider-name="JR">
   <requires>

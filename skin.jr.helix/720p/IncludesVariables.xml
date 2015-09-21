@@ -781,7 +781,7 @@
 	</variable>
 	<variable name="SubMenuRadioFive" type="text">
 		<value condition="!IsEmpty(Skin.String(SubRadio.5.Label))">$INFO[Skin.String(SubRadio.5.Label)]</value>
-		<value>$LOCALIZE[32251]</value>
+		<value>$LOCALIZE[32222]</value>
 	</variable>
 	<variable name="SubMenuRadioSix" type="text">
 		<value condition="!IsEmpty(Skin.String(SubRadio.6.Label))">$INFO[Skin.String(SubRadio.6.Label)]</value>
@@ -794,6 +794,10 @@
 	<variable name="SubMenuRadioEight" type="text">
 		<value condition="!IsEmpty(Skin.String(SubRadio.8.Label))">$INFO[Skin.String(SubRadio.8.Label)]</value>
 		<value>$LOCALIZE[32254]</value>
+	</variable>
+	<variable name="SubMenuRadioNine" type="text">
+		<value condition="!IsEmpty(Skin.String(SubRadio.8.Label))">$INFO[Skin.String(SubRadio.8.Label)]</value>
+		<value>$LOCALIZE[32251]</value>
 	</variable>
 	<variable name="SubMenuVideosOne" type="text">
 		<value condition="!IsEmpty(Skin.String(SubVideos.1.Label))">$INFO[Skin.String(SubVideos.1.Label)]</value>
@@ -1046,7 +1050,7 @@
 	</variable>		
 	<variable name="SubMenuUserOneThree" type="text">
 		<value condition="!IsEmpty(Skin.String(SubUserOne.3.Label))">$INFO[Skin.String(SubUserOne.3.Label)]</value>
-		<value>$LOCALIZE[32261]</value>
+		<value>$LOCALIZE[32295]</value>
 	</variable>		
 	<variable name="SubMenuUserOneFour" type="text">
 		<value condition="!IsEmpty(Skin.String(SubUserOne.4.Label))">$INFO[Skin.String(SubUserOne.4.Label)]</value>
@@ -1057,8 +1061,12 @@
 		<value>$LOCALIZE[32229]</value>
 	</variable>	
 	<variable name="SubMenuUserOneSix" type="text">
-		<value condition="!IsEmpty(Skin.String(SubUserOne.5.Label))">$INFO[Skin.String(SubUserOne.5.Label)]</value>
+		<value condition="!IsEmpty(Skin.String(SubUserOne.6.Label))">$INFO[Skin.String(SubUserOne.5.Label)]</value>
 		<value>$LOCALIZE[32240]</value>
+	</variable>	
+	<variable name="SubMenuUserOneSeven" type="text">
+		<value condition="!IsEmpty(Skin.String(SubUserOne.7.Label))">$INFO[Skin.String(SubUserOne.5.Label)]</value>
+		<value>$LOCALIZE[32261]</value>
 	</variable>	
 	<variable name="SubMenuProgramsOne" type="text">
 		<value condition="!IsEmpty(Skin.String(SubProg.1.Label))">$INFO[Skin.String(SubProg.1.Label)]</value>

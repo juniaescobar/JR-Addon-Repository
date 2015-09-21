@@ -1088,11 +1088,11 @@
 			<visible>!stringcompare(Skin.String(AddonSetSix.6.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32222]</label>
+			<label>$LOCALIZE[32295]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(AddonSetSix.7.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.F.T.V/?ch_fanart=music&amp;description=272%2c2942%2c3245%2c2999%2c3365%2c3008%2c3038%2c3056%2c3059%2c3065%2c3068%2c1681%2c2891%2c3217%2c2233%2c257%2c2188%2c950%2c1687%2c1690%2c1696%2c2072%2c95%2c2152%2c2170%2c2179%2c2182%2c691%2c8%2c385%2c530%2c1367%2c311%2c1356%2c350%2c400%2c309%2c342%2c347%2c1325%2c1310%2c1336%2c1337%2c1353&amp;mode=123&amp;name=MUSIC&amp;url=12&quot;,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(AddonSetSix.7.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.streamengine/?date&amp;description&amp;iconimage=http%3a%2f%2fi1295.photobucket.com%2falbums%2fb636%2fbeatbox8501%2fMUSIC_zps1eeiyeer.png&amp;mode=1&amp;name=%5bCOLOR%20white%5dMUSIC%20VIDEOS%5b%2fCOLOR%5d&amp;page&amp;play&amp;url=https%3a%2f%2fpastebin.com%2fraw.php%3fi%3dxxNGeW8i&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(AddonSetSix.7.Path))">$INFO[Skin.String(AddonSetSix.7.Path)]</onclick>
-			<icon>special://home/addons/plugin.video.F.T.V/icon.png</icon>
+			<icon>special://home/addons/plugin.video.streamengine/icon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(AddonSetSix.7.Path),Hidden)</visible>
 		</item>
@@ -1231,7 +1231,7 @@
 		<item>
 			<label>$LOCALIZE[32201]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(AddonSetNine.1.Path))">ActivateWindow(Videos,plugin://plugin.video.genesis/?action=movies_added_hd,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(AddonSetNine.1.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.genesis/?action=movies&amp;url=added&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(AddonSetNine.1.Path))">$INFO[Skin.String(AddonSetNine.1.Path)]</onclick>
 			<icon>special://home/addons/plugin.video.genesis/icon.png</icon>
 			<thumb>-</thumb>
@@ -1404,11 +1404,11 @@
 			<visible>!stringcompare(Skin.String(HomeAddonSetEleven.5.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$LOCALIZE[32212]</label>
+			<label>$LOCALIZE[32295]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.6.Path))">ActivateWindow(Videos,plugin://plugin.video.losmovies/?url=http%3A%2F%2Fwww.losmovies.tv%2Fwatch-3D-movies&amp;mode=5&amp;name=3D,return)</onclick>
+			<onclick condition="IsEmpty(Skin.String(HomeAddonSetEleven.6.Path))">ActivateWindow(10025,&quot;plugin://plugin.video.streamengine/?date&amp;description&amp;iconimage=http%3a%2f%2fi1295.photobucket.com%2falbums%2fb636%2fbeatbox8501%2f3D_zpscmqjmtij.png&amp;mode=1&amp;name=3D%20MOVIES&amp;page&amp;play&amp;url=https%3a%2f%2fpastebin.com%2fraw.php%3fi%3dzqVbad0D&quot;,return)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(HomeAddonSetEleven.6.Path))">$INFO[Skin.String(HomeAddonSetEleven.6.Path)]</onclick>
-			<icon>special://home/addons/plugin.video.losmovies/icon.png</icon>
+			<icon>special://home/addons/plugin.video.streamengine/icon.png</icon>
 			<thumb>-</thumb>
 			<visible>!stringcompare(Skin.String(HomeAddonSetEleven.6.Path),Hidden)</visible>
 		</item>
